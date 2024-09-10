@@ -36,5 +36,5 @@ This project is a **Zapier-like automation platform** built with a **Next.js fro
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/zapier-clone.git
+https://github.com/abressiddique/zapier-project.git
 cd zapier-clone
