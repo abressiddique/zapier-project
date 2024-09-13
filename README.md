@@ -13,6 +13,9 @@ This project is a **Zapier-like automation platform** built with a **Next.js fro
 - [Usage](#usage)
 - [License](#license)
 
+
+
+
 ## Features
 
 - **User Authentication** using JWT.
