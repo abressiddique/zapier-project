@@ -2,9 +2,6 @@
 
 This project is a **Zapier-like automation platform** built with a **Next.js frontend**, an **Express backend**, **Prisma ORM**, and **PostgreSQL** as the database. It also integrates with **Apache Kafka** for event-driven architecture and **Webhooks** for communication between external services.
 
-
-
-
 ## Table of Contents
 
 - [Features](#features)
