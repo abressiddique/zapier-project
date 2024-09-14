@@ -1,45 +1,45 @@
-# Zapier Clone Project
+# Zapier-like Application
 
-This project is a **Zapier-like automation platform** built with a **Next.js frontend**, an **Express backend**, **Prisma ORM**, and **PostgreSQL** as the database. It also integrates with **Apache Kafka** for event-driven architecture and **Webhooks** for communication between external services.
+Welcome to the Zapier-like application! This project demonstrates a web application built with a combination of frontend and backend technologies, designed to mimic the functionality of Zapier.
 
-## Table of Contents
+## Project Screenshots
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Database Setup](#database-setup)
-- [Kafka Setup](#kafka-setup)
-- [Usage](#usage)
-- [License](#license)
+Here are some screenshots of the project:
 
+![Screenshot 1](demo/image1.png)
+![Screenshot 2](demo/image2.png)
+![Screenshot 3](demo/image3.png)
+![Screenshot 4](demo/image4.png)
+![Screenshot 5](demo/image5.png)
 
+## Project Structure
 
+The project is divided into multiple components:
 
-## Features
-
-- **User Authentication** using JWT.
-- **Zap Management**: Create, edit, and delete zaps.
-- **Triggers & Actions**: Each Zap contains customizable triggers and actions.
-- **Webhooks Integration**: Supports external services triggering actions via webhooks.
-- **Event Processing** using Apache Kafka.
-- **PostgreSQL** as the primary database, with **Prisma ORM** for database management.
+- **Frontend**: A Next.js application for the user interface.
+- **Hooks**: Contains custom hooks and utilities.
+- **Primary Backend**: The main backend service handling API requests.
+- **Processor**: A service for processing data with Kafka.
+- **Worker**: A worker service for additional tasks like sending emails and interacting with Solana blockchain.
 
 ## Technologies Used
 
-- **Frontend**: [Next.js](https://nextjs.org/)
-- **Backend**: [Express.js](https://expressjs.com/)
-- **Database**: [PostgreSQL](https://www.postgresql.org/) with [Prisma ORM](https://www.prisma.io/)
-- **Authentication**: JWT (JSON Web Tokens)
-- **Event Processing**: [Apache Kafka](https://kafka.apache.org/)
-- **Webhooks**: To communicate with external services
+- **Frontend**: 
+  - [Next.js](https://nextjs.org/)
+  - [React](https://reactjs.org/)
+  - [Tailwind CSS](https://tailwindcss.com/)
 
-## Installation
+- **Backend**: 
+  - [Express.js](https://expressjs.com/)
+  - [Prisma](https://www.prisma.io/)
+  - [KafkaJS](https://kafka.js.org/)
+  - [Solana Web3](https://solana.com/)
+  - [Nodemailer](https://nodemailer.com/)
 
-1. **Clone the repository**:
+## Setup and Installation
 
-```bash
-https://github.com/abressiddique/zapier-project.git
-cd zapier-clone
+### Frontend
 
-
+1. Navigate to the `frontend` directory:
+   ```bash
+   cd frontend
