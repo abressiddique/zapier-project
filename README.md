@@ -2,6 +2,7 @@
 
 Welcome to the Zapier-like application! This project demonstrates a web application built with a combination of frontend and backend technologies, designed to mimic the functionality of Zapier.
 
+
 ## Project Screenshots
 
 Here are some screenshots of the project:
